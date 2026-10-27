@@ -1,2 +1,7 @@
 allowBuilds:
   unrs-resolver: true
+
+# Security override for a transitive dep whose parent has no patched range yet.
+# shortcut: drop once micromark-extension-math allows katex 0.18.
+overrides:
+  katex: '^0.19.0' # GHSA-238p-pmpm-9mq7 (fixed 0.18.2; 0.18.11 is deprecated), via @hyperupcall/scripts-nodejs > @eslint/markdown
