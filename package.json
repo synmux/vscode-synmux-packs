@@ -9,11 +9,11 @@
 		"lint:fix": "eslint --fix ."
 	},
 	"devDependencies": {
-		"@hyperupcall/scripts-nodejs": "0.10.0",
+		"@hyperupcall/scripts-nodejs": "0.13.0",
 		"@types/node": "^26.6.6",
 		"@types/yauzl": "^3.4.0",
-		"es-toolkit": "^1.53.0",
-		"eslint": "^10.13.0",
+		"es-toolkit": "^1.53.1",
+		"eslint": "^10.14.0",
 		"prettier": "^3.9.10",
 		"type-fest": "^5.10.0",
 		"yauzl": "^3.4.0"
