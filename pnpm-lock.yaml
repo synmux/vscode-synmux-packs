@@ -27,8 +27,8 @@ importers:
         specifier: ^10.14.0
         version: 10.14.0(supports-color@9.4.0)
       prettier:
-        specifier: ^3.9.10
-        version: 3.9.10
+        specifier: ^3.10.1
+        version: 3.10.1
       type-fest:
         specifier: ^5.10.0
         version: 5.10.0
@@ -1277,8 +1277,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.9.10:
-    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1748,19 +1748,19 @@ snapshots:
       - ts-declaration-location
       - typescript
 
-  '@hyperupcall/prettier-config@0.13.0(prettier@3.9.10)':
+  '@hyperupcall/prettier-config@0.13.0(prettier@3.10.1)':
     dependencies:
       '@hyperupcall/config-utils': 0.5.0
-      prettier-plugin-pkg: 0.22.1(prettier@3.9.10)
+      prettier-plugin-pkg: 0.22.1(prettier@3.10.1)
     transitivePeerDependencies:
       - prettier
 
   '@hyperupcall/scripts-nodejs@0.13.0(@typescript-eslint/utils@8.72.1(eslint@10.14.0(supports-color@9.4.0))(supports-color@9.4.0)(typescript@6.0.3))(supports-color@9.4.0)(typescript@6.0.3)':
     dependencies:
       '@hyperupcall/eslint-config': 2.1.0(@typescript-eslint/utils@8.72.1(eslint@10.14.0(supports-color@9.4.0))(supports-color@9.4.0)(typescript@6.0.3))(eslint@10.14.0(supports-color@9.4.0))(supports-color@9.4.0)(typescript@6.0.3)
-      '@hyperupcall/prettier-config': 0.13.0(prettier@3.9.10)
+      '@hyperupcall/prettier-config': 0.13.0(prettier@3.10.1)
       eslint: 10.14.0(supports-color@9.4.0)
-      prettier: 3.9.10
+      prettier: 3.10.1
     transitivePeerDependencies:
       - '@typescript-eslint/utils'
       - bluebird
@@ -3158,11 +3158,11 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-pkg@0.22.1(prettier@3.9.10):
+  prettier-plugin-pkg@0.22.1(prettier@3.10.1):
     dependencies:
-      prettier: 3.9.10
+      prettier: 3.10.1
 
-  prettier@3.9.10: {}
+  prettier@3.10.1: {}
 
   proc-log@4.2.0: {}
 
